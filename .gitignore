@@ -1,30 +1,138 @@
 # Operating System files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
 
 # Virtual environments
 venv/
 .venv/
 env/
 .env/
+ENV/
+env.bak/
+venv.bak/
 
-# Python compiled files
-__pycache__/
-*.pyc
-
-# IDE and Editor configurations (e.g., PyCharm, IntelliJ)
+# PyCharm / IntelliJ IDEA
 .idea/
-.vscode/
 *.iml
+*.iws
+*.ipr
+out/
 /shelf/
 /workspace.xml
 /httpRequests/
 /dataSources/
 /dataSources.local.xml
 
-# Docker and Build artifacts
-# Ignore the directory created by the PostgreSQL volume for database persistence
-postgres-data/
+# VS Code
+.vscode/
+*.code-workspace
+.history/
 
-# Log files and temporary files
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker
 *.log
+docker-compose.override.yml
+.dockerignore
+
+# MongoDB data (if running locally)
+mongodb-data/
+mongo-data/
+*.bson
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
 tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+.cache/
+
+# Storage (if needed in future)
+front-init/storage/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
